@@ -1,241 +1,335 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-         
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Posts</title>
-        <style>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    html body {
-        font-family: 'Ubuntu', sans-serif;
-        background-color: white;
-    }
+    <title>Posts &middot; </title>
 
-    :root {
-        --accent: black;
-        --border-width:  5px ;
-    }
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-</style>
+    <link rel="shortcut icon" href="https://icedseat.github.io/favicon.ico" />
+    <link rel="canonical" href="https://icedseat.github.io/post/" />
 
+    
+    <meta name="description" content="" /> 
 
-<link rel="stylesheet" href="https://icedseat.github.io//css/main.css">
-
-
-
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-
-
- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image" content="https://icedseat.github.io/img/blog-cover.jpg"/>
  
+    <meta name="twitter:title" content="Posts"/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:url" content="https://icedseat.github.io/post/" />
+    <meta name="twitter:site" content="@"/>
 
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
-
-    <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.42.2" />
-        
-        <link href="https://icedseat.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="ICEDseat" />
-        <link href="https://icedseat.github.io/post/index.xml" rel="feed" type="application/rss+xml" title="ICEDseat" />
-        
-        
-        
-    </head>
-
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Posts &middot; icdeseat" />
+    <meta property="og:url" content="https://icedseat.github.io/post/" />
     
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script>
 
-    <body>
-         
-        <nav class="navbar navbar-default navbar-fixed-top">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="" />
 
-            <div class="container">
+    <meta property="og:image" content="https://icedseat.github.io/img/blog-cover.jpg"/>
 
-                <div class="navbar-header">
+    <meta name="generator" content="Hugo 0.53" />
 
-                    <a class="navbar-brand visible-xs" href="#">Posts</a>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://icedseat.github.io/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://icedseat.github.io/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
 
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+     
 
-                </div>
+</head>
 
-                <div class="collapse navbar-collapse">
 
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">Home Page</a></li>
-                            
-                                <li><a href="/xplode-bomb/">Injections action</a></li>
-                            
-                                <li><a href="/post/">Posts</a></li>
-                            
-                        </ul>
+<body class="home-template"><div class="site-wrapper">
+
+<header class="site-header outer "  style="background-image: url(https://icedseat.github.io/img/blog-cover.jpg)"  >
+  <div class="inner">
+    <div class="site-header-content">
+      <h1 class="site-title"> icdeseat  </h1>
+        <h2 class="site-description">all about medicine in sports </h2>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left"><ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="https://icedseat.github.io/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://icedseat.github.io/tags/">Tags</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://icedseat.github.io/categories/">Categories</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
                     
 
                     
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a href="mailto:me@example.com"><i class="fa fa-envelope-o"></i></a></li>
-                            
-                        </ul>
+
                     
 
-                </div>
+                    
 
-            </div>
+                    
+        </div>  
+            
+      </div>
 
-        </nav>
+    </nav>  
 
+  </div>
+</header>
 
-<main>
-
-    <h2>Posts</h2>
-
-     <div class="item">
-
-    
-    
-    
-
-    
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    <div class="post-feed">
       
 
-    <h4><a href="/post/bodybuilders-candies/">Exclusive summary. Mass Tablets user reactions</a></h4>
-    <h5>You have to definitely restore post any oral AAS incase you want 2 effectively save most of lean muscle. Path 4 the lossless finale - PCT Substances.</h5>
+
+<article class="post-card post"> 
     
-    <a href="https://icedseat.github.io/tags/tabs-for-gym"><kbd class="item-tag">tabs for gym</kbd></a>
+    <a class="post-card-image-link" href="https://icedseat.github.io/post/1-cyc/">
+      <div class="post-card-image" style="background-image: url(https://icedseat.github.io/defimg/6.jpg)"></div>
+    </a>    
     
 
-</div>
-  <div class="item">
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://icedseat.github.io/post/1-cyc/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #cycle 
+              #dct  </span>
+              
+              <h2 class="post-card-title">How Additional Cycle Medications work?
+</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>When u expect to win maximum benefit out of anabolic steroids  find right Supplementary Products first</p>
+              
+          </section>
+      </a>
 
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://icedseat.github.io/img/ghost-icon.png" alt="Author" />
+          <span class="post-card-author"><a href="https://icedseat.github.io/">EM</a></span>
+      </footer>
+    </div>
+</article>
+
+
+<article class="post-card post"> 
     
-    
+    <a class="post-card-image-link" href="https://icedseat.github.io/post/bodybuilders-candies/">
+      <div class="post-card-image" style="background-image: url(https://icedseat.github.io/defimg/4.jpg)"></div>
+    </a>    
     
 
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://icedseat.github.io/post/bodybuilders-candies/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #faq 
+              #gym pills  </span>
+              
+              <h2 class="post-card-title">Exclusive summary. Mass Tablets user reactions
+</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>You have to definitely restore post any oral AAS  incase you want 2 effectively save most of lean muscle.  Path 4 the lossless finale - PCT Substances.</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://icedseat.github.io/img/ghost-icon.png" alt="Author" />
+          <span class="post-card-author"><a href="https://icedseat.github.io/">EM</a></span>
+      </footer>
+    </div>
+</article>
+
+
+<article class="post-card post"> 
     
+    <a class="post-card-image-link" href="https://icedseat.github.io/post/popular-tamifen/">
+      <div class="post-card-image" style="background-image: url(https://icedseat.github.io/defimg/4.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://icedseat.github.io/post/popular-tamifen/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #faq 
+              #pct 
+              #recovery  </span>
+              
+              <h2 class="post-card-title">Popular Tamifen drug usage
+</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>You don&rsquo;t need to reduce the dosage of aromatizing bolins, quit roid cycle. If you have troubles - add Nolva pills.</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://icedseat.github.io/img/ghost-icon.png" alt="Author" />
+          <span class="post-card-author"><a href="https://icedseat.github.io/">EM</a></span>
+      </footer>
+    </div>
+</article>
+
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://icedseat.github.io/post/pct/">
+      <div class="post-card-image" style="background-image: url(https://icedseat.github.io/defimg/6.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://icedseat.github.io/post/pct/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #faq 
+              #recovery  </span>
+              
+              <h2 class="post-card-title">After Cycle Drugs for athletes. Impacts of PCT
+</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>The blend you&rsquo;re using or otherwise solo anabolic, strong or  maybe mild - human brain cannot figure out brands of all  Steroid Injections. It identifies extra and ceases to deliver  internal androgens. Much more advice below</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://icedseat.github.io/img/ghost-icon.png" alt="Author" />
+          <span class="post-card-author"><a href="https://icedseat.github.io/">EM</a></span>
+      </footer>
+    </div>
+</article>
+
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://icedseat.github.io/post/nortestosterone-phenyl/">
+      <div class="post-card-image" style="background-image: url(https://icedseat.github.io/defimg/5.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://icedseat.github.io/post/nortestosterone-phenyl/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #injections 
+              #nandrolone  </span>
+              
+              <h2 class="post-card-title">Mysteries of athletics accomplishments.  What can Nortestosterone Phenylpropionate steroid do?
+</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>Phenyl doping is on the lead, powerful gear meant for treating  of critical strains and the muscular increase. For bodybuilder  who prefer to control cycles NPP is the advantage.</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://icedseat.github.io/img/ghost-icon.png" alt="Author" />
+          <span class="post-card-author"><a href="https://icedseat.github.io/">EM</a></span>
+      </footer>
+    </div>
+</article>
+
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://icedseat.github.io/post/nandrolone/">
+      <div class="post-card-image" style="background-image: url(https://icedseat.github.io/defimg/3.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://icedseat.github.io/post/nandrolone/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #injections 
+              #nandrolone  </span>
+              
+              <h2 class="post-card-title">Thoughts and comments. Nandrolone AS profile
+</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>Nortestosteronum is beneficial anabolic steroid for recovery  post intensive wounds and first rate muscle growth, winner  of the game.</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://icedseat.github.io/img/ghost-icon.png" alt="Author" />
+          <span class="post-card-author"><a href="https://icedseat.github.io/">EM</a></span>
+      </footer>
+    </div>
+</article>
+
+
+    </div>
+
+    <nav class="pagination" role="navigation">
       
-
-    <h4><a href="/post/pct/">After Cycle Drugs for athletes. Impacts of PCT</a></h4>
-    <h5>The blend you&#39;re using or otherwise solo anabolic, strong or maybe mild - human brain cannot figure out brands of all Steroid Injections. It identifies extra and ceases to deliver internal androgens. Much more advice below</h5>
-    
-    <a href="https://icedseat.github.io/tags/tabs-for-gym"><kbd class="item-tag">tabs for gym</kbd></a>
-    
-    <a href="https://icedseat.github.io/tags/pct-faq"><kbd class="item-tag">PCT faq</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
+          <a class="newer-posts" href="https://icedseat.github.io/post/">&larr; <span class="hide">Next Posts</span></a>
       
-
-    <h4><a href="/post/popular-tamifen/">Popular Tamifen drug usage</a></h4>
-    <h5>You don&#39;t need to reduce the dosage of aromatizing bolins, quit roid cycle. If you have troubles - add Nolva pills.</h5>
-    
-    <a href="https://icedseat.github.io/tags/tabs-for-gym"><kbd class="item-tag">tabs for gym</kbd></a>
-    
-    <a href="https://icedseat.github.io/tags/pct-faq"><kbd class="item-tag">PCT faq</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
+      <span class="page-number"><span class="hide">Page 2 of 4</span>&nbsp;</span>
       
-
-    <h4><a href="/post/nortestosterone-phenyl/">Mysteries of athletics accomplishments. What can Nortestosterone Phenylpropionate steroid do</a></h4>
-    <h5>Phenyl doping is on the lead, powerful gear meant for treating of critical strains and the muscular increase. For bodybuilder who prefer to control cycles NPP is the advantage.</h5>
-    
-    <a href="https://icedseat.github.io/tags/shots-for-gym"><kbd class="item-tag">shots for gym</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
+          <a class="older-posts" href="https://icedseat.github.io/post/page/3/"><span class="hide">Previous Posts</span> &rarr;</a>
       
-
-    <h4><a href="/post/nandrolone/">Thoughts and comments. Nandrolone AS profile</a></h4>
-    <h5>Nortestosteronum is beneficial anabolic steroid for recovery post intensive wounds and first rate muscle growth, winner of the game. Read whole story...</h5>
-    
-    <a href="https://icedseat.github.io/tags/shots-for-gym"><kbd class="item-tag">shots for gym</kbd></a>
-    
-
-</div>
- 
-
+    </nav>
+  </div>
 </main>
 
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="https://icedseat.github.io/">EM</a> © 2018-2019 <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        <a href="https://icedseat.github.io/">Latest Posts</a>
+        
+        
+        
+        
+        
+    </nav>  
+  </div>
+</footer>
+
+</div><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://icedseat.github.io/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
 
 
-<div class="pages">
-
-    
-    <a class="icon pages-icon" href="/post/" rel="prev">
-        <i class="fa fa-arrow-left"></i>
-    </a>
-     
-    <a class="icon pages-icon" href="/post/page/3/" rel="next">
-        <i class="fa fa-arrow-right"></i>
-    </a>
-    
-
-</div>
-
-
-
-        <footer>
-
-            <p class="copyright text-muted">&copy; 2018. All rights reserved.</p>
-
-        </footer>
-       
-    </body>
-
-</html>
-
+</body></html>
