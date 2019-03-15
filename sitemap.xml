@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icedseat.github.io/post/1-sus-1-ndd/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/post/1-tes-1-tra/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
@@ -163,6 +168,11 @@
   </url>
   
   <url>
+    <loc>https://icedseat.github.io/post/roids-do/</loc>
+    <lastmod>2018-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/post-first-version/sust-anabolic/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
   </url>
@@ -218,7 +228,17 @@
   </url>
   
   <url>
+    <loc>https://icedseat.github.io/post/propionate/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/post-first-version/xplode-bomb/</loc>
+    <lastmod>2018-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post/xplode-bomb/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -234,20 +254,24 @@
   
   <url>
     <loc>https://icedseat.github.io/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://icedseat.github.io/post/</loc>
+    <loc>https://icedseat.github.io/post-broken-links/2018-01-30-ind-00020/</loc>
   </url>
   
   <url>
-    <loc>https://icedseat.github.io/post/</loc>
+    <loc>https://icedseat.github.io/post-broken-links/2018-02-01-tec-00336/</loc>
   </url>
   
   <url>
-    <loc>https://icedseat.github.io/post/</loc>
+    <loc>https://icedseat.github.io/post-broken-links/2018-02-01-tep-00325/</loc>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post-broken-links/2018-02-12-ind-00031/</loc>
   </url>
   
   <url>
@@ -288,6 +312,12 @@
   <url>
     <loc>https://icedseat.github.io/tags/dct/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/tags/deca/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -382,6 +412,11 @@
   </url>
   
   <url>
+    <loc>https://icedseat.github.io/post-broken-links/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/post-first-version/</loc>
     <lastmod>2019-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -389,7 +424,7 @@
   
   <url>
     <loc>https://icedseat.github.io/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -438,6 +473,12 @@
   <url>
     <loc>https://icedseat.github.io/tags/steroids/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/tags/sust/</loc>
+    <lastmod>2019-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
