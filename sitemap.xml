@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://icedseat.github.io/post/2-4-sta/</loc>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post/1-win-1-tra/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post/1-tea/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post/tee-04738/</loc>
+    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post/sta-04202/</loc>
+    <lastmod>2019-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post/dct-stack/</loc>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/post-first-version/dct-stack/</loc>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/post/4-tes-4-dbl/</loc>
     <lastmod>2019-04-05T00:00:00+00:00</lastmod>
   </url>
@@ -289,7 +324,7 @@
   
   <url>
     <loc>https://icedseat.github.io/</loc>
-    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -301,7 +336,7 @@
   
   <url>
     <loc>https://icedseat.github.io/tags/aquatest/</loc>
-    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -336,7 +371,7 @@
   
   <url>
     <loc>https://icedseat.github.io/tags/dct/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -383,6 +418,12 @@
   </url>
   
   <url>
+    <loc>https://icedseat.github.io/categories/faq/</loc>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/tags/features/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -402,7 +443,13 @@
   
   <url>
     <loc>https://icedseat.github.io/tags/injections/</loc>
-    <lastmod>2018-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/tags/injects/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -444,13 +491,13 @@
   
   <url>
     <loc>https://icedseat.github.io/post-first-version/</loc>
-    <lastmod>2019-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://icedseat.github.io/post/</loc>
-    <lastmod>2019-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -485,6 +532,12 @@
   </url>
   
   <url>
+    <loc>https://icedseat.github.io/tags/shots-for-gym/</loc>
+    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/tags/side-effects/</loc>
     <lastmod>2019-02-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -493,6 +546,12 @@
   <url>
     <loc>https://icedseat.github.io/tags/stacks/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://icedseat.github.io/tags/stanozolol/</loc>
+    <lastmod>2019-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -516,7 +575,7 @@
   
   <url>
     <loc>https://icedseat.github.io/tags/tablets/</loc>
-    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -539,6 +598,12 @@
   </url>
   
   <url>
+    <loc>https://icedseat.github.io/tags/test-eth/</loc>
+    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://icedseat.github.io/tags/testosterone/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -552,7 +617,7 @@
   
   <url>
     <loc>https://icedseat.github.io/tags/trenbolone/</loc>
-    <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -570,7 +635,7 @@
   
   <url>
     <loc>https://icedseat.github.io/tags/winstrol/</loc>
-    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

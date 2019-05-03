@@ -10,5 +10,14 @@
 	<atom:link href="https://icedseat.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Faq</title>
+      <link>https://icedseat.github.io/categories/faq/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://icedseat.github.io/categories/faq/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
